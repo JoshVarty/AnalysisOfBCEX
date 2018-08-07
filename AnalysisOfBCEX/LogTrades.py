@@ -25,6 +25,7 @@ def logtrades(pair):
                 my_log.write(",")
                 my_log.write(trade['amount'])
                 my_log.write("\n")
+                my_log.flush()
 
                 last_time = trade['timestamp']
 
