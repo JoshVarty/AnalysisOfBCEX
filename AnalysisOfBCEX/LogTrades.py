@@ -2,11 +2,10 @@ import ccxt
 import time 
 
 
-def logtrades():
+def logtrades(pair):
 
     hour_ago = int(time.time() * 1000) - 60 * 1000 
     exchange = getattr(ccxt, "bcex")()
-    pair = "BTC/CKUSD"
 
     last_time = int(time.time() * 1000) - (60 * 1000  * 1000)
 
@@ -32,4 +31,4 @@ def logtrades():
                 time.sleep(60) #sleep one minute
 
 if __name__ == "__main__":
-    logtrades();
+    logtrades("XLM/CKUSD");
