@@ -98,13 +98,16 @@ class BCEXWebsocket():
         order = json.loads(body['order']) if 'order' in body else None
         orderbook = json.loads(body['sum']) if 'sum' in body else None
 
-        self.bestAsk = orderbook['sale'][0]
-        self.bestBid = orderbook['buy'][0]
-        self.orderbook = orderbook
+        bestAsk = orderbook['sale'][0]
+        bestBid = orderbook['buy'][0]
 
         #Log orderbook info
         currentTime = int(time.time() * 1000);
         self.my_log.write(str(currentTime))
+        self.my_log.write(',')
+        self.my_log.write(str(bestAsk))
+        self.my_log.write(',')
+        self.my_log.write(str(bestBid))
         self.my_log.write(',')
         self.my_log.write(str(orderbook))
         self.my_log.write('\n')
