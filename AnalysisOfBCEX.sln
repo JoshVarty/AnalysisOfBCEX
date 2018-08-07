@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "AnalysisOfBCEX", "AnalysisOfBCEX\AnalysisOfBCEX.pyproj", "{A1961FEE-B0AD-4F41-9E78-713430314C43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1961FEE-B0AD-4F41-9E78-713430314C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1961FEE-B0AD-4F41-9E78-713430314C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66673C95-FEDE-4FD1-AA22-5E3A96D7C62F}
+	EndGlobalSection
+EndGlobal
