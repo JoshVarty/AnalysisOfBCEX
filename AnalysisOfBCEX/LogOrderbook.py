@@ -105,9 +105,9 @@ class BCEXWebsocket():
         currentTime = int(time.time() * 1000);
         self.my_log.write(str(currentTime))
         self.my_log.write(',')
-        self.my_log.write(str(bestAsk))
+        self.my_log.write(str(bestAsk['p']))
         self.my_log.write(',')
-        self.my_log.write(str(bestBid))
+        self.my_log.write(str(bestBid['p']))
         self.my_log.write(',')
         self.my_log.write(str(orderbook))
         self.my_log.write('\n')
