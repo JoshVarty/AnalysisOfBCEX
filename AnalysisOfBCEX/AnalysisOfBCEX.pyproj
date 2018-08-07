@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a1961fee-b0ad-4f41-9e78-713430314c43</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>LogTrades.py</StartupFile>
+    <StartupFile>LogOrderbook.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="LogOrderbook.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="LogTrades.py">
       <SubType>Code</SubType>
     </Compile>
