@@ -17,13 +17,13 @@ def logtrades(pair):
 
             for trade in trades:
 
-                my_log.write(trade['timestamp'])
+                my_log.write(str(trade['timestamp']))
                 my_log.write(",")
-                my_log.write(trade['datetime'])
+                my_log.write(str(trade['datetime']))
                 my_log.write(",")
-                my_log.write(trade['price'])
+                my_log.write(str(trade['price']))
                 my_log.write(",")
-                my_log.write(trade['amount'])
+                my_log.write(str(trade['amount']))
                 my_log.write("\n")
                 my_log.flush()
 
